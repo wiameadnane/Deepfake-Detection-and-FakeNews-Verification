@@ -6,14 +6,14 @@ A comprehensive AI-powered application that analyzes video content to detect dee
   <img src="screenshots/main-screen.png" alt="TruthLens Main Screen">
 </p>
 
-## 🎯 Project Overview
+## Project Overview
 
 TruthLens is a desktop application built with PyQt6 that combines two powerful detection systems:
 
 1. **DeepFake Detection**: Analyzes video frames to identify manipulated or synthetic media using deep learning
 2. **Fake News Verification**: Transcribes video audio, extracts key information, and cross-references with real news articles to verify content authenticity
 
-## 🚀 Features
+## Features
 
 ### DeepFake Detection
 - **Frame Extraction**: Extracts frames from uploaded videos at configurable intervals
@@ -35,7 +35,7 @@ TruthLens is a desktop application built with PyQt6 that combines two powerful d
 - Scrollable results display with clickable article links
 - Professional styling with dark theme
 
-## 📋 Requirements
+## Requirements
 
 ### Python Version
 - Python 3.8 or higher
@@ -98,7 +98,7 @@ NEWSAPI_KEY=your_api_key_here
 6. **Add background image**
 - Ensure `black.png` is in the project root for the application background
 
-## 🎮 Usage
+## Usage
 
 1. **Run the application**
 ```bash
@@ -135,7 +135,7 @@ python main.py
   <img src="screenshots/real-detection-and-news-detection.png" alt="Real Video Detection Result">
 </p>
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ### File Structure
 ```
@@ -174,7 +174,7 @@ python main.py
 7. **Semantic Comparison** → Sentence-BERT computes cosine similarity
 8. **Result Display** → Show top 5 most similar articles with sources
 
-## 🧠 Machine Learning Models
+## Machine Learning Models
 
 ### DeepFake Detection
 - **Feature Extractor**: ResNet50 (pre-trained on ImageNet)
@@ -192,7 +192,7 @@ python main.py
 - **Semantic Matching**: Sentence-BERT (all-MiniLM-L6-v2)
 - **Similarity Metric**: Cosine similarity
 
-## 🔍 How It Works
+## How It Works
 
 ### DeepFake Detection
 The system analyzes videos by:
@@ -214,16 +214,6 @@ The system verifies content by:
 3. Searching credible news sources for similar content
 4. Computing semantic similarity between video and articles
 5. Presenting verified sources for fact-checking
-
-## 🎓 Academic Context
-
-This project was developed as part of a Pattern Recognition (Reconnaissance des Formes) course in Semester 7. It demonstrates practical applications of:
-- Deep Learning for Computer Vision
-- Natural Language Processing
-- Sequence Modeling with RNNs/LSTMs
-- Transfer Learning
-- Feature Engineering
-- Semantic Analysis
 
 ## ⚠️ Limitations
 
@@ -257,14 +247,6 @@ This project was developed as part of a Pattern Recognition (Reconnaissance des 
    - Export reports in PDF/JSON
    - Confidence score visualization
    - Historical analysis tracking
-
-## 📝 License
-
-This project is created for academic purposes. Please ensure proper attribution if using or modifying this code.
-
-## 👥 Contributors
-
-Developed as part of Pattern Recognition coursework at Euromed University of fez, Morocco.
 
 ---
 
